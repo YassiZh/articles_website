@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+
+/*--------------------------------------------login---------------------------------------*/
+a{
+	text-decoration: none;
+}
+#entete .login {
+  
+	opacity: 0.8;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid #BB652D;
+	border-right: none;
+  cursor: pointer;
+  width: 5%;
+	right: 0;
+	z-index: 10;position: absolute;
+}
+
+#entete .login:hover {
+  opacity: 1;background-color: #BB652D;border: none;
+}
+
+/*-------------------------------------------------Partie Dynamique------------------*/
+#articles{
+
+	width: 80%;padding: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+}
+#auto{
+	border: 1px solid #999;
+	width: 150px;min-height: 200px;margin: 10px;
+	padding-left: 20px;float: left;
+}
+#auto img {
+	width: 130px; height: 100px;margin: 5px;
+}
+#articles b{color: #BB652D;}
+
+
+
+/*-------------------------------------------------tableau de bord------------------*/
+
+
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+/* Bordered form */
+.formulaire {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/* Full-width inputs */
+.zonetext {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.submit {
+    background-color: #BB652D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.submit:hover {
+    background-color: white;
+    color: #BB652D;
+    border: 1px solid #BB652D;
+}
+table{
+  caption-side: bottom;
+}
+th, td{
+ border:none;
+  padding: 10px;
+}
+th{
+ border:none;background-color: #BB652D;
+  padding: 10px;
+}
+/*----------------------------------------------------profil---------------------------------------*/
+#global{
+	width: 100%;padding: 5px;
+	margin: 10px;
+}
+#global #profil{
+	width: 20%;
+	padding: 10px;
+	vertical-align: top;text-align: center;
+	min-height: 100px;
+	display: inline-block;
+	border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#global #tableaubord{
+	width: 70%;
+	padding: 20px;margin: 5px;
+	vertical-align: middle;
+	min-height: 100px;
+	display: inline-block;
+	border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
